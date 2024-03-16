@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TwitterClient</string>
+
+    <!-- Texts -->
+    <string name="tweet_send_error_0">Cannot send a tweet without message.</string>
+    <string name="tweet_send_error_140">The tweet exceeded word limit.</string>
+    <string name="tweet_send_error">Failed to send tweet.</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/base">
+        <item
+            android:id="@+id/menuAddTweet"
+            android:orderInCategory="0"
+            android:icon="@drawable/ic_add_tweet"
+            android:title="add" />
+        <item
+            android:id="@+id/menuAddSearch"
+            android:orderInCategory="0"
+            android:icon="@drawable/ic_search"
+            android:title="search" />
+    </group>
+
+    <group android:id="@+id/twitterList">
+        <item
+            android:id="@+id/listHome"
+            android:orderInCategory="1"
+            android:icon="@drawable/ic_home"
+            android:title="Save" />
+    </group>
+
+    <group android:id="@+id/settings">
+        <item
+            android:id="@+id/menuAddColumn"
+            android:orderInCategory="2"
+            android:icon="@drawable/ic_add_column"
+            android:title="add column" />
+        <item
+            android:id="@+id/menuCollapseColumn"
+            android:orderInCategory="2"
+            android:icon="@drawable/ic_collapse"
+            android:title="collapse column" />
+        <item
+            android:id="@+id/menuAccount"
+            android:orderInCategory="2"
+            android:icon="@drawable/ic_account"
+            android:title="account" />
+        <item
+            android:id="@+id/menuSettings"
+            android:orderInCategory="2"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/menuUser"
+            android:orderInCategory="2"
+            android:icon="@drawable/ic_user"
+            android:title="User" />
+    </group>
+
+</menu>
